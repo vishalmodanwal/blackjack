@@ -1,0 +1,79 @@
+body{
+	background-color:rgb(180, 194, 245);
+}
+
+h1,h2,h3
+{
+	text-align:center;
+	font-size: 2rem;
+}
+table
+{
+	align-content: center;
+	margin-left: 25%;
+	margin-top: 3%;
+	width:50%;
+}
+table ,th,td,tr
+{
+  border:2px solid green;
+  text-align:center;
+  border-collapse:collapse;
+  padding:10px;
+  background-color:rgb(195, 203, 217);
+}
+
+.btn
+{  
+	background-color: inherit;
+	padding:14px 28px;
+	font-size:16px;
+	margin:2px 10px;
+}
+.btn-danger
+{
+  background-color:red;
+}
+.btn-warning
+{
+	background-color:orange;
+}
+.btn-info
+{
+	background-color:blue;
+}
+.flexbox_row1,.flexbox_row2
+{   
+	display:flex;
+	border:2px solid black;
+	background-image:url(https://image.freepik.com/free-vector/poker-table-background-green-color_47243-1073.jpg);
+	padding:5px;
+	margin:0 auto;
+	text-align:center;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	flex-flow: row;
+}
+ 
+#your-box img , #Dealer-box img
+{
+	 border:2px solid green;
+	margin:5px;
+	width:125px;
+	height:140px;
+	
+}
+#your-box ,#Dealer-box
+{
+	flex:1;
+ border:2px solid black;
+ padding:10px;
+ text-align:center;
+ flex-wrap: wrap;
+ flex-flow: column;
+  justify-content:space-around;
+	width:50%;
+	border-radius: 7%;
+	min-height: 300px;
+}
+
